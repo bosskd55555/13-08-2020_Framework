@@ -99,7 +99,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-09-2021 16:38</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-09-2021 14:43</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -132,9 +132,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
                             <span class="test-case-title">
-                                <span class="success-color">
+                                <span class="error-color">
                                     Test
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -162,22 +162,21 @@
                     <th width="65">                        &nbsp;
                     </th>
 
-                    <th width="%" class="step-description-column greentext">
+                    <th width="%" class="step-description-wide-column greentext">
                         Steps
                     </th>
-                    <th width="150" class="greentext">Screenshots</th>
                     <th width="110" class="greentext">Outcome</th>
                     <th width="80" class="greentext"><i title="Duration" class="far fa-clock"></i></th>
                 </tr>
                 <tr class="step-table-separator">
                     <td colspan="5"></td>
                 </tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-ERROR">
                     <td width="50" class="step-icon">
                         <a name="0"/>
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                style="display:block">
-                                <i class="fa fa-plus-square-o imgstepSection0 success-icon"
+                                <i class="fa fa-plus-square-o imgstepSection0 error-icon"
                                    style="margin-left: 20px; float:left;  padding-right:5px"></i>
                             </a>
                     </td>
@@ -192,34 +191,18 @@
 
                         </div>
                     </td>
-                        <td width="160" class="SUCCESS-text">
-                                <a href="d446feca46a234aa554bcce60612cb75d9911dce7f4b1f683625dcd3e47db12a_screenshots.html#screenshots?screenshot=0">
-                                    <img src="67d0a41d3f3c5217258b897bdda68001283b460ada3daf36a9fff6a901645828.png"
-                                         href="67d0a41d3f3c5217258b897bdda68001283b460ada3daf36a9fff6a901645828.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                                <i class="fas fa-arrow-right"></i>
-
-                                <a href="d446feca46a234aa554bcce60612cb75d9911dce7f4b1f683625dcd3e47db12a_screenshots.html#screenshots?screenshot=0">
-                                    <img src="c1c241a44e2863d5eb2d4a7d1438e4c8cb13fd4a6d5764650974cbf0ae989480.png"
-                                         href="c1c241a44e2863d5eb2d4a7d1438e4c8cb13fd4a6d5764650974cbf0ae989480.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">21.96s</span></td>
+                    <td width="100"><span class="top-level-step">ERROR</span></td>
+                    <td width="100"><span class="top-level-step">1217.85s</span></td>
                 </tr>
                     <tr>
                     <td colspan="5">
                     <table id="stepSection0" style="display:none; width:100%">
 
-                <tr class="test-SUCCESS">
+                <tr class="test-ERROR">
                     <td width="50" class="step-icon">
                         
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></span>
+                                  class="nested-group-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -229,26 +212,62 @@
 
                         </div>
                     </td>
-                        <td width="160" class="SUCCESS-text">
-
-                                <a href="d446feca46a234aa554bcce60612cb75d9911dce7f4b1f683625dcd3e47db12a_screenshots.html#screenshots?screenshot=1">
-                                    <img src="67d0a41d3f3c5217258b897bdda68001283b460ada3daf36a9fff6a901645828.png"
-                                         href="67d0a41d3f3c5217258b897bdda68001283b460ada3daf36a9fff6a901645828.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">21.01s</span></td>
+                    <td width="100"><span class="nested-group-step">ERROR</span></td>
+                    <td width="100"><span class="nested-group-step">1217.21s</span></td>
                 </tr>
+                    <tr class="test-ERROR">
+                        <td width="40">&nbsp</td>
+                        <td width="%" colspan="3" class="error-message-cell">
+
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-2""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-2">
+            <div class="card">
+                <div class="card-header">
+                    <h4>net.thucydides.core.webdriver.UnsupportedDriverException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>pageObjects.LoginPageObject.LaunchTheHomeUrl(LoginPageObject.java:36)<br />steps.LoginSteps.launchTheUrl(LoginSteps.java:14)<br />stepDefinitions.LoginPageBDD.user_opens_the_URL(LoginPageBDD.java:18)<br />cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)<br />cucumber.runner.TestStep.executeStep(TestStep.java:63)<br />cucumber.runner.TestStep.run(TestStep.java:49)<br />cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)<br />cucumber.runner.TestCase.run(TestCase.java:44)<br />cucumber.runner.Runner.runPickle(Runner.java:40)<br /></pre>
+                    </div>
+
+                    <h4>
+                        Caused by: net.thucydides.core.webdriver.UnsupportedDriverException
+                    </h4>
+                    <div>
+                            <pre>Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created<br>from timeout: Timed out receiving message from renderer: 600.000<br>  (Session info: chrome=93.0.4577.63)<br>Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'<br>System info: host: 'ADMIN', ip: '169.254.54.236', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_201'<br>Driver info: driver.version: ChromeDriver<br>remote stacktrace: Backtrace:<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00F0A2D3+2663123]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00E9A491+2204817]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D82118+1057048]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D749BD+1001917]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D73A0D+997901]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D73CC6+998598]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D735B5+996789]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D7E1C4+1040836]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D73571+996721]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D74496+1000598]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D73A0D+997901]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D73CC6+998598]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D735B5+996789]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D7C1AA+1032618]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D73571+996721]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D74496+1000598]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D73A0D+997901]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D73CC6+998598]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D735B5+996789]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D7A039+1024057]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D73571+996721]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D74496+1000598]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D73A0D+997901]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D73CC6+998598]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D735B5+996789]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D7935C+1020764]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D73571+996721]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D74496+1000598]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D73A0D+997901]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D73CC6+998598]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D735B5+996789]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D6F19D+979357]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D73571+996721]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D73310+996112]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D730A9+995497]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00D83330+1061680]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00DCAD29+1355049]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00DC99FA+1350138]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00DC589B+1333403]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00DA1F74+1187700]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00DA2DC9+1191369]<br>&nbsp; &nbsp; &nbsp; &nbsp;GetHandleVerifier [0x010A30D6+1610054]<br>&nbsp; &nbsp; &nbsp; &nbsp;GetHandleVerifier [0x0114B53B+2299307]<br>&nbsp; &nbsp; &nbsp; &nbsp;GetHandleVerifier [0x00F98DA9+519705]<br>&nbsp; &nbsp; &nbsp; &nbsp;GetHandleVerifier [0x00F97759+513993]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00EA112D+2232621]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00EA55F8+2250232]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00EA5732+2250546]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x00EAE591+2286993]<br>&nbsp; &nbsp; &nbsp; &nbsp;BaseThreadInitThunk [0x754A173E+18]<br>&nbsp; &nbsp; &nbsp; &nbsp;LdrInitializeThunk [0x779E0409+593]<br>&nbsp; &nbsp; &nbsp; &nbsp;LdrInitializeThunk [0x779E03B5+509]</pre>
+                        <pre>pageObjects.LoginPageObject.LaunchTheHomeUrl(LoginPageObject.java :36)<br />steps.LoginSteps.launchTheUrl(LoginSteps.java :14)<br />stepDefinitions.LoginPageBDD.user_opens_the_URL(LoginPageBDD.java :18)<br />cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java :50)<br />cucumber.runner.TestStep.executeStep(TestStep.java :63)<br />cucumber.runner.TestStep.run(TestStep.java :49)<br />cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java :43)<br />cucumber.runner.TestCase.run(TestCase.java :44)<br />cucumber.runner.Runner.runPickle(Runner.java :40)<br /></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                    </td>
+                    </tr>
 
                     </table>
                     </td>
                     <tr>
-                <tr class="test-SUCCESS">
-                    <td colspan="3"></td>
-                    <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>24.75s</em></span></td>
+                <tr class="test-ERROR">
+                    <td colspan="2"></td>
+                    <td width="100"><span class="top-level-step"><em>ERROR</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>1222.22s</em></span></td>
                 </tr>
 
             </table>

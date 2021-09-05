@@ -1,1 +1,129 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="As a user, should be able to verify the deals page" skipped="0" tests="1" time="24.75" timestamp="2021-09-04 04:38:46"><testcase name="Test"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="As a user, should be able to verify the deals page" skipped="0" tests="1" time="1222.22" timestamp="2021-09-05 02:43:23"><testcase name="Test"><error message="Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created&#10;from timeout: Timed out receiving message from renderer: 600.000&#10;  (Session info: chrome=93.0.4577.63)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'ADMIN', ip: '169.254.54.236', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_201'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;&#9;Ordinal0 [0x00F0A2D3+2663123]&#10;&#9;Ordinal0 [0x00E9A491+2204817]&#10;&#9;Ordinal0 [0x00D82118+1057048]&#10;&#9;Ordinal0 [0x00D749BD+1001917]&#10;&#9;Ordinal0 [0x00D73A0D+997901]&#10;&#9;Ordinal0 [0x00D73CC6+998598]&#10;&#9;Ordinal0 [0x00D735B5+996789]&#10;&#9;Ordinal0 [0x00D7E1C4+1040836]&#10;&#9;Ordinal0 [0x00D73571+996721]&#10;&#9;Ordinal0 [0x00D74496+1000598]&#10;&#9;Ordinal0 [0x00D73A0D+997901]&#10;&#9;Ordinal0 [0x00D73CC6+998598]&#10;&#9;Ordinal0 [0x00D735B5+996789]&#10;&#9;Ordinal0 [0x00D7C1AA+1032618]&#10;&#9;Ordinal0 [0x00D73571+996721]&#10;&#9;Ordinal0 [0x00D74496+1000598]&#10;&#9;Ordinal0 [0x00D73A0D+997901]&#10;&#9;Ordinal0 [0x00D73CC6+998598]&#10;&#9;Ordinal0 [0x00D735B5+996789]&#10;&#9;Ordinal0 [0x00D7A039+1024057]&#10;&#9;Ordinal0 [0x00D73571+996721]&#10;&#9;Ordinal0 [0x00D74496+1000598]&#10;&#9;Ordinal0 [0x00D73A0D+997901]&#10;&#9;Ordinal0 [0x00D73CC6+998598]&#10;&#9;Ordinal0 [0x00D735B5+996789]&#10;&#9;Ordinal0 [0x00D7935C+1020764]&#10;&#9;Ordinal0 [0x00D73571+996721]&#10;&#9;Ordinal0 [0x00D74496+1000598]&#10;&#9;Ordinal0 [0x00D73A0D+997901]&#10;&#9;Ordinal0 [0x00D73CC6+998598]&#10;&#9;Ordinal0 [0x00D735B5+996789]&#10;&#9;Ordinal0 [0x00D6F19D+979357]&#10;&#9;Ordinal0 [0x00D73571+996721]&#10;&#9;Ordinal0 [0x00D73310+996112]&#10;&#9;Ordinal0 [0x00D730A9+995497]&#10;&#9;Ordinal0 [0x00D83330+1061680]&#10;&#9;Ordinal0 [0x00DCAD29+1355049]&#10;&#9;Ordinal0 [0x00DC99FA+1350138]&#10;&#9;Ordinal0 [0x00DC589B+1333403]&#10;&#9;Ordinal0 [0x00DA1F74+1187700]&#10;&#9;Ordinal0 [0x00DA2DC9+1191369]&#10;&#9;GetHandleVerifier [0x010A30D6+1610054]&#10;&#9;GetHandleVerifier [0x0114B53B+2299307]&#10;&#9;GetHandleVerifier [0x00F98DA9+519705]&#10;&#9;GetHandleVerifier [0x00F97759+513993]&#10;&#9;Ordinal0 [0x00EA112D+2232621]&#10;&#9;Ordinal0 [0x00EA55F8+2250232]&#10;&#9;Ordinal0 [0x00EA5732+2250546]&#10;&#9;Ordinal0 [0x00EAE591+2286993]&#10;&#9;BaseThreadInitThunk [0x754A173E+18]&#10;&#9;LdrInitializeThunk [0x779E0409+593]&#10;&#9;LdrInitializeThunk [0x779E03B5+509]&#10;" type="net.thucydides.core.webdriver.UnsupportedDriverException">Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=93.0.4577.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN', ip: '169.254.54.236', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_201'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F0A2D3+2663123]
+	Ordinal0 [0x00E9A491+2204817]
+	Ordinal0 [0x00D82118+1057048]
+	Ordinal0 [0x00D749BD+1001917]
+	Ordinal0 [0x00D73A0D+997901]
+	Ordinal0 [0x00D73CC6+998598]
+	Ordinal0 [0x00D735B5+996789]
+	Ordinal0 [0x00D7E1C4+1040836]
+	Ordinal0 [0x00D73571+996721]
+	Ordinal0 [0x00D74496+1000598]
+	Ordinal0 [0x00D73A0D+997901]
+	Ordinal0 [0x00D73CC6+998598]
+	Ordinal0 [0x00D735B5+996789]
+	Ordinal0 [0x00D7C1AA+1032618]
+	Ordinal0 [0x00D73571+996721]
+	Ordinal0 [0x00D74496+1000598]
+	Ordinal0 [0x00D73A0D+997901]
+	Ordinal0 [0x00D73CC6+998598]
+	Ordinal0 [0x00D735B5+996789]
+	Ordinal0 [0x00D7A039+1024057]
+	Ordinal0 [0x00D73571+996721]
+	Ordinal0 [0x00D74496+1000598]
+	Ordinal0 [0x00D73A0D+997901]
+	Ordinal0 [0x00D73CC6+998598]
+	Ordinal0 [0x00D735B5+996789]
+	Ordinal0 [0x00D7935C+1020764]
+	Ordinal0 [0x00D73571+996721]
+	Ordinal0 [0x00D74496+1000598]
+	Ordinal0 [0x00D73A0D+997901]
+	Ordinal0 [0x00D73CC6+998598]
+	Ordinal0 [0x00D735B5+996789]
+	Ordinal0 [0x00D6F19D+979357]
+	Ordinal0 [0x00D73571+996721]
+	Ordinal0 [0x00D73310+996112]
+	Ordinal0 [0x00D730A9+995497]
+	Ordinal0 [0x00D83330+1061680]
+	Ordinal0 [0x00DCAD29+1355049]
+	Ordinal0 [0x00DC99FA+1350138]
+	Ordinal0 [0x00DC589B+1333403]
+	Ordinal0 [0x00DA1F74+1187700]
+	Ordinal0 [0x00DA2DC9+1191369]
+	GetHandleVerifier [0x010A30D6+1610054]
+	GetHandleVerifier [0x0114B53B+2299307]
+	GetHandleVerifier [0x00F98DA9+519705]
+	GetHandleVerifier [0x00F97759+513993]
+	Ordinal0 [0x00EA112D+2232621]
+	Ordinal0 [0x00EA55F8+2250232]
+	Ordinal0 [0x00EA5732+2250546]
+	Ordinal0 [0x00EAE591+2286993]
+	BaseThreadInitThunk [0x754A173E+18]
+	LdrInitializeThunk [0x779E0409+593]
+	LdrInitializeThunk [0x779E03B5+509]
+</error><system-err>Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=93.0.4577.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN', ip: '169.254.54.236', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_201'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F0A2D3+2663123]
+	Ordinal0 [0x00E9A491+2204817]
+	Ordinal0 [0x00D82118+1057048]
+	Ordinal0 [0x00D749BD+1001917]
+	Ordinal0 [0x00D73A0D+997901]
+	Ordinal0 [0x00D73CC6+998598]
+	Ordinal0 [0x00D735B5+996789]
+	Ordinal0 [0x00D7E1C4+1040836]
+	Ordinal0 [0x00D73571+996721]
+	Ordinal0 [0x00D74496+1000598]
+	Ordinal0 [0x00D73A0D+997901]
+	Ordinal0 [0x00D73CC6+998598]
+	Ordinal0 [0x00D735B5+996789]
+	Ordinal0 [0x00D7C1AA+1032618]
+	Ordinal0 [0x00D73571+996721]
+	Ordinal0 [0x00D74496+1000598]
+	Ordinal0 [0x00D73A0D+997901]
+	Ordinal0 [0x00D73CC6+998598]
+	Ordinal0 [0x00D735B5+996789]
+	Ordinal0 [0x00D7A039+1024057]
+	Ordinal0 [0x00D73571+996721]
+	Ordinal0 [0x00D74496+1000598]
+	Ordinal0 [0x00D73A0D+997901]
+	Ordinal0 [0x00D73CC6+998598]
+	Ordinal0 [0x00D735B5+996789]
+	Ordinal0 [0x00D7935C+1020764]
+	Ordinal0 [0x00D73571+996721]
+	Ordinal0 [0x00D74496+1000598]
+	Ordinal0 [0x00D73A0D+997901]
+	Ordinal0 [0x00D73CC6+998598]
+	Ordinal0 [0x00D735B5+996789]
+	Ordinal0 [0x00D6F19D+979357]
+	Ordinal0 [0x00D73571+996721]
+	Ordinal0 [0x00D73310+996112]
+	Ordinal0 [0x00D730A9+995497]
+	Ordinal0 [0x00D83330+1061680]
+	Ordinal0 [0x00DCAD29+1355049]
+	Ordinal0 [0x00DC99FA+1350138]
+	Ordinal0 [0x00DC589B+1333403]
+	Ordinal0 [0x00DA1F74+1187700]
+	Ordinal0 [0x00DA2DC9+1191369]
+	GetHandleVerifier [0x010A30D6+1610054]
+	GetHandleVerifier [0x0114B53B+2299307]
+	GetHandleVerifier [0x00F98DA9+519705]
+	GetHandleVerifier [0x00F97759+513993]
+	Ordinal0 [0x00EA112D+2232621]
+	Ordinal0 [0x00EA55F8+2250232]
+	Ordinal0 [0x00EA5732+2250546]
+	Ordinal0 [0x00EAE591+2286993]
+	BaseThreadInitThunk [0x754A173E+18]
+	LdrInitializeThunk [0x779E0409+593]
+	LdrInitializeThunk [0x779E03B5+509]
+&#13;
+pageObjects.LoginPageObject.LaunchTheHomeUrl(LoginPageObject.java:36)&#13;
+steps.LoginSteps.launchTheUrl(LoginSteps.java:14)&#13;
+stepDefinitions.LoginPageBDD.user_opens_the_URL(LoginPageBDD.java:18)&#13;
+cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)&#13;
+cucumber.runner.TestStep.executeStep(TestStep.java:63)&#13;
+cucumber.runner.TestStep.run(TestStep.java:49)&#13;
+cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)&#13;
+cucumber.runner.TestCase.run(TestCase.java:44)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:40)&#13;
+</system-err></testcase></testsuite>
